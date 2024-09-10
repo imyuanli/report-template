@@ -7,10 +7,9 @@ import {Button} from "antd";
 const App: React.FC = () => {
     const views = useRoutes(routes)
 
-
     return (
-        <div>
-            <header className="header">
+        <>
+            <header className={"header"}>
                 <div>
                     logo
                 </div>
@@ -20,10 +19,12 @@ const App: React.FC = () => {
                     </Button>
                 </div>
             </header>
-            <main className="main">
-                {views}
+            <main className={"main"}>
+                <div className={"contain"}>
+                    {views}
+                </div>
             </main>
-        </div>
+        </>
     )
 }
 export default App;

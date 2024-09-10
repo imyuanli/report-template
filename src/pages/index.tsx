@@ -6,7 +6,7 @@ const Index = () => {
             <div className={"title"}>
                 廉政举报
             </div>
-            <div>
+            <div className={"card"}>
 
             </div>
             <div>
